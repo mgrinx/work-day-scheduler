@@ -6,7 +6,7 @@ A responsive scheduling web applet that allows the user to enter and save todo i
 
 ## Usage
 
-[Try it!](https://mgrinx.github.io/work-day-scheduler)  
+### [Try it!](https://mgrinx.github.io/work-day-scheduler)
 Select a time block to edit the text it contains. When you want to save an entry, click the save button.
 
 ## Features
