@@ -40,7 +40,7 @@ $(function() {
         let newHourLabel = $("<div>");
         newHourLabel.attr("class", "hour col-2 col-xl-1");
         //convert 24 hr time to 12 hr
-        newHourLabel.text((((i - 1) % 12) + 1) + (i % 12 === i ? "AM" : "PM"));
+        newHourLabel.text((i % 12 === 0 ? 12 : i % 12) + (i % 12 === i ? "AM" : "PM"));
 
         let newTextArea = $("<textarea>");
         newTextArea.attr("class", "description col-8 col-sm-9 col-xl-10");
