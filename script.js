@@ -5,7 +5,8 @@ $(function() {
     let endHour = 17;
     let saveName = "WDSData"; //the name our local storage item is going to use
 
-    let hour = moment().hour(); //the current hour
+    let hour = 11;
+    // let hour = moment().hour(); //the current hour
     let save = JSON.parse(localStorage.getItem(saveName)); //load savedata
 
     //set the header date text
@@ -51,10 +52,9 @@ $(function() {
         newSaveBtn.attr("class", "saveBtn btn btn-primary btn-lg col-2 col-sm-1");
         newSaveBtn.attr("type", "submit");
         newSaveBtn.attr("aria-label", "Save changes");
-        // add save icon
-        newSaveBtn.append($("<i>").attr("class", "fas fa-save"));
+        newSaveBtn.append($("<i>").attr("class", "fas fa-save")); // add save icon
 
-
+        //combine and append everything to the page
         newTimeBlock.append(newHourLabel, newTextArea, newSaveBtn);
         $(".container").append(newTimeBlock);
     }

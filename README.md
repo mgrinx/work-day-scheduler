@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-A responsive scheduling web applet that allows the user to enter and save todo items for each hour of the work day.
+A responsive scheduling applet that allows the user to enter and save todo items for each hour of the work day.
 
 ![Screenshot](Screenshot.png)
 
