@@ -5,8 +5,7 @@ $(function() {
     let endHour = 17;
     let saveName = "WDSData"; //the name our local storage item is going to use
 
-    let hour = 11;
-    // let hour = moment().hour(); //the current hour
+    let hour = moment().hour(); //the current hour
     let save = JSON.parse(localStorage.getItem(saveName)); //load savedata
 
     //set the header date text
